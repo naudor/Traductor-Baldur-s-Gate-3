@@ -6,7 +6,7 @@ from openai import OpenAI
 import json
 
 # Configura l'API (DeepSeek via endpoint compatible amb OpenAI)
-os.environ["OPENAI_API_KEY"] = "sk-4f2619415ca646ca9e21928bf5be3a22"
+os.environ["OPENAI_API_KEY"] = "EL_TOKEN_DEL_SERVEI"
 client = OpenAI(base_url="https://api.deepseek.com")
 MODEL_NAME = "deepseek-chat"
 MIDA_BLOC = 100
