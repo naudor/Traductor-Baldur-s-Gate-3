@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+   <region id="Languages">
+      <node id="Catalan">
+         <attribute id="Name" type="FixedString" value="Spanish"/>
+         <attribute id="NameLoca" type="TranslatedString" value="Catal\u00e0"/>
+         <attribute id="Folder" type="FixedString" value="Catalan"/>
+         <attribute id="Engine" type="FixedString" value="Latin"/>       <!-- Sistema d'escriptura (exemple: Latin, Cyrillic, etc.) -->
+         <attribute id="HasVoice" type="bool" value="False"/>           <!-- Indica si hi ha doblatge de veu específic -->
+         <attribute id="Usage" type="FixedString" value="Main"/>        <!-- Ús principal de l'idioma (Main per a interface/subtítols) -->
+      </node>
+   </region>
+</save>
