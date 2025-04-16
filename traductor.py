@@ -9,7 +9,7 @@ import json
 os.environ["OPENAI_API_KEY"] = "EL_TOKEN_DEL_SERVEI"
 client = OpenAI(base_url="https://api.deepseek.com")
 MODEL_NAME = "deepseek-chat"
-MIDA_BLOC = 100
+MIDA_BLOC = 50
 
 def neteja_entrada(text: str) -> str:
     text = html.escape(text)
