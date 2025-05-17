@@ -48,9 +48,9 @@ def tradueix_bloc_de_línies(llista_frases: list[str]) -> list[str]:
                         "'lenyador' per 'llenyataire','sabe a' per 'te gust a ', 'hinchado' per 'inflat', 'conozco' per 'conec', 'pesadilla' per 'malson', 'acometida' per 'escomesa', 'tañido' per 'repic', 'enano' per 'nan'"
                         "'yelmo' per 'elm', 'rindete' per 'rendeix-te', 'estupendo' per 'fantàstic', 'ahínco' per 'afany', 'pastizal' per 'dineral', 'merecido' per 'merescut', 'manos a la obra' per 'anem per feina'"
                         "'usa' per 'utilitza', 'colinas' per 'turons', 'sendero' per 'camí', 'date prisa' per 'afanya't', 'se cuelan' per 's'escolen', 'macheta' per 'ganivet gros', 'en un santiamen' per 'en un instant'"
-                        "'Lunar' per 'de la Lluna', 'pretendes' per 'pretens', 'bicho' per 'bestiola'"
+                        "'Lunar' per 'de la Lluna', 'pretendes' per 'pretens', 'bicho' per 'bestiola', 'sufres' per 'pateixes', 'Fallo' per 'Fracàs'"
                         "Si detectes que una paraula com 'cielo' s'utilitza com a mot carinyós, tradueix-la com 'rei' o 'carinyo', segons convingui. Si és literal, fes servir 'cel'."
-                        "Quan es parli en el text original de 'saga' com a sinonim de 'bruja' tradueix-lo per 'bruixa'"
+                        "Quan es parli en el text original de 'saga' com a sinonim de 'bruja' tradueix-lo per 'bruixa', 'apestas' per 'fas pudor'"
                         #"Respecta escrupolosament el gènere no binari de l'original. Si el text font usa recursos no binaries (com '-e', '-en'),"
                         #" adapta'l al català amb la mateixa convenció, prioritzant la intenció dels creadors sobre la normativa estàndard"
                     )
